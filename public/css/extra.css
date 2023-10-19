@@ -1,0 +1,143 @@
+.card-tag-display{
+    display: flex;
+    gap: 10px;
+}
+
+.my-post-card-title{
+    font-size: 20px;
+}
+.my-post-card-title:hover{
+    font-size: 20px;
+}
+
+
+.choose-picture  {
+    cursor: pointer;
+}
+
+
+#main-pic, #preview-pic, #profile-pict{
+    display: none;
+}
+
+
+.choose-pic-group{
+    display: flex;
+    margin: 50px 0;
+}
+
+#label{
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.choose-picture-label{
+    pointer-events: auto;
+    padding: 10px 20px;
+    border: 1px solid;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.choose-picture-label:hover{
+    background: #30336b;
+    color: white;
+}
+
+.cust-checkbox{
+    width: 80px;
+    display: flex;
+    flex-direction: column-reverse;;
+
+    align-items: center;
+    align-content: center;
+    gap:4px;
+}
+
+
+.my-users-form-cont{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.my-users-form{
+    padding: 50px 0;
+    background: rgba(221, 221, 221, 0.42);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my-form{
+    margin-top: 40px;
+    /*padding: 0 40px;*/
+}
+
+.my-form-btn{
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 1px solid;
+    transition: .3s;
+}
+
+.my-form-btn:hover{
+    background: #30336b;
+    color: white;
+}
+
+.my-social-area{
+    display: flex;
+    gap:20px;
+}
+
+
+.my-btn-social-area{
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.likes-form{
+    display: flex;
+    margin-top:10px;
+}
+
+
+#like-area{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-avatar-comment-area{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.empty-btn{
+    cursor: pointer;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+#comment-cancel-btn{
+    display:none;
+}
+
+
+#admin-save-changes{
+    display: none;
+}

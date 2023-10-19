@@ -1,0 +1,47 @@
+.my-modal{
+    display: none;
+    position: fixed;
+    z-index: 200;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+.my-modal-cont{
+    background: #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.my-modal-cont-text{
+    max-width: 300px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+.my-modal-cont-btns{
+    display: flex;
+    gap:10px
+}
+
+.my-modal-cont-likes{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+.my-modal-cont-likes-item{
+    display: grid;
+    justify-items: center;
+    width: 60px;
+}

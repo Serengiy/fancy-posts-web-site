@@ -1,0 +1,50 @@
+#my-nav-links{
+    display: inline-flex;
+    align-content: center;
+    gap:4px;
+
+}
+
+.login-icon{
+    background: url('../img/icons/login.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+
+}
+.register-icon{
+    background: url('../img/icons/register.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+}
+
+.logout-icon{
+    background: url('../img/icons/logout.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+}
+
+.manage-icon{
+    background: url('../img/icons/manage.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+}
+
+.like-icon{
+    background: url('../img/icons/like.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+    cursor: pointer;
+}
+
+.liked-icon{
+    background: url('../img/icons/liked.png');
+    height: 23px;
+    width: 23px;
+    display: block;
+    cursor: pointer;
+}
